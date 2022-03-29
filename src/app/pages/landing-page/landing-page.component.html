@@ -1,0 +1,567 @@
+<!--header section start-->
+<header class="header">
+  <!--start navbar-->
+  <nav class="navbar navbar-expand-lg fixed-top bg-transparent">
+    <div class="container">
+      <a class="navbar-brand" href="index-6.html"
+        ><img
+          src="../../../assets/img/logos/LOGO-TIPO-2-ACTUALIZACION.png"
+          width="140"
+          alt="logo"
+          class="img-fluid p-3"
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="ti-menu"></span>
+      </button>
+
+      <div
+        class="collapse navbar-collapse main-menu"
+        id="navbarSupportedContent"
+      >
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link page-scroll dropdown-toggle"
+              href="#"
+              id="navbarDropdownHome"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Home
+            </a>
+            <div
+              class="dropdown-menu submenu"
+              aria-labelledby="navbarDropdownHome"
+            >
+              <a class="dropdown-item" href="index.html">Demo Template 1</a>
+              <a class="dropdown-item" href="index-2.html">Demo Template 2</a>
+              <a class="dropdown-item" href="index-3.html">Demo Template 3</a>
+              <a class="dropdown-item" href="index-4.html">Demo Template 4</a>
+              <a class="dropdown-item" href="index-5.html">Demo Template 5</a>
+              <a class="dropdown-item" href="index-6.html">Demo Template 6</a>
+              <a class="dropdown-item" href="index-7.html">Demo Template 7</a>
+              <a class="dropdown-item" href="index-8.html">Demo Template 8</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link page-scroll" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link page-scroll" href="#services">Service</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link page-scroll" href="#pricing">Pricing</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Pages
+            </a>
+            <div class="dropdown-menu submenu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="about-us.html">About Us</a>
+              <a class="dropdown-item" href="services.html">Our Services</a>
+              <a class="dropdown-item" href="pricing.html">Our Pricing</a>
+              <a class="dropdown-item" href="contact-us.html">Contact Us</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link page-scroll" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--end navbar-->
+</header>
+<!--header section end-->
+
+<div class="main">
+  <!--hero section start-->
+  <section
+    class="hero-section ptb-100 background-img"
+    style="background: url('http://agencyco.themetags.com/img/hero-bg-1.jpg') no-repeat center center / cover"
+  >
+    <div class="container">
+      <div class="row align-items-center justify-content-between">
+        <div class="col-md-6">
+          <div class="hero-content-left text-white mt-lg-0 mt-md-0 mt-5">
+            <h1 class="text-white">Los Autoestimados más rápidos y confiables</h1>
+            <p class="lead">
+              Auto estimados online ofrece el servicio de estimaciones en linea
+              más experimentado de puerto rico. Obtén tu estimado con nosotros
+              en menos de una hora.
+            </p>
+
+            <!--clients logo start-->
+            <div class="client-section-wrap mt-5">
+              <h3 class="text-white">
+                <img src="../../../assets/img/pr_flag.svg" style="max-width: 30px;" alt="">
+                Puerto Rico confía en nosotros:
+              </h3>
+              <ul class="list-inline">
+                <li *ngFor="let logo of logos" class="list-inline-item">
+                  <img
+                    [src]="logo.img"
+                    width="85"
+                    alt="client"
+                    class="img-fluid"
+                  />
+                </li>
+              </ul>
+            </div>
+            <!--clients logo end-->
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-5">
+          <div
+            class="sign-up-form-wrap position-relative rounded p-5 "
+          >
+            <div class="sign-up-form-header text-center mb-4">
+              <!-- <h4 class="mb-0">Obten tu estimado en menos de una hora</h4> -->
+              <div class="form-group">
+                <a href="#" (click)="goChat()" class="whatsapp-btn btn outline-btn btn-block">
+                  CONTACTANOS
+                  <img class="whatsapp-btn-img ml-3" src="../../../assets/img/whatsapp.svg">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--hero section end-->
+
+  <!--promo section start-->
+  <section class="promo-section pt-5 pb-100">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 col-md-9">
+          <div class="section-heading text-center mb-5">
+            <h2>Texto servicios Autoestimados online</h2>
+            <p class="lead">
+              Following reasons show advantages of adding us to your lead
+              pages, demos and checkouts team building e-tailers after timely
+              schemas.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row no-gutters">
+        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+          <div
+            class="single-services single-feature-hover gray-light-bg single-feature text-center p-5 h-100"
+          >
+            <span
+              class="ti-bar-chart primary-bg text-white icon rounded"
+            ></span>
+            <div class="feature-content">
+              <h5 class="mb-2">Convert traffic into sales</h5>
+              <p>
+                where we use search engines to market your product through paid
+                methods pay per click services.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+          <div
+            class="single-services single-feature-hover gray-light-bg single-feature text-center p-5 h-100"
+          >
+            <span class="ti-shield primary-bg text-white icon rounded"></span>
+            <div class="feature-content">
+              <h5 class="mb-2">Increase store trust</h5>
+              <p>
+                While browsing Facebook or Twitter or even Linkedin, you are
+                subjected to advertisements.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+          <div
+            class="single-services single-feature-hover gray-light-bg single-feature text-center p-5 h-100"
+          >
+            <span class="ti-cup primary-bg text-white icon rounded"></span>
+            <div class="feature-content">
+              <h5 class="mb-2">Growth guaranteed</h5>
+              <p>
+                Email marketing is one of the most popular strategies offered
+                full-service marketing agencies.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--promo section end-->
+
+  <!--about us section start-->
+  <section id="about" class="about-us ptb-100 gray-light-bg">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <div class="about-content-left">
+            <h2>Una empresa familiar con calidad corporativa</h2>
+            <p class="lead">
+              Texto de quienes somos, esto es acerca de autoestimados online, la experiencia que tienen
+              el reconocimiento que han ganado en Puerto Rico y la gran calidad de su servicio.
+            </p>
+          </div>
+          <div class="row">
+            <div class="single-feature my-4 col-md-6">
+              <div class="d-flex align-items-center mb-2">
+                <span
+                  class="ti-alarm-clock rounded mr-3 icon primary-bg text-white"
+                ></span>
+                <h5 class="mb-0">Easy to use</h5>
+              </div>
+              <p>
+                Synergistically deliver next-generation relationships whereas
+                bleeding-edge resources. Continually pontificate stand-alone
+                benefits whereas.
+              </p>
+            </div>
+            <div class="single-feature my-4 col-md-6">
+              <div class="d-flex align-items-center mb-2">
+                <span
+                  class="ti-alarm-clock rounded mr-3 icon primary-bg text-white"
+                ></span>
+                <h5 class="mb-0">Increase conversion</h5>
+              </div>
+              <p>
+                Phosfluorescently empower compelling intellectual capital and
+                revolutionary web services. Compellingly develop cross-media.
+              </p>
+            </div>
+            <div class="col-md-6 my-4">
+              <div class="form-group">
+                <input
+                  (click)="goChat()"
+                  type="submit"
+                  name="submit"
+                  id="submit"
+                  class="btn solid-btn btn-block"
+                  value="Obtener estimado"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="counter">
+            <div class="single-card box-animation-1 primary-bg text-white">
+              <span class="ti-medall-alt"></span>
+              <h3>1565</h3>
+              <p>Active users</p>
+            </div>
+            <div class="single-card box-animation-2 secondary-bg text-white">
+              <span class="ti-headphone-alt"></span>
+              <h3>2452</h3>
+              <p>Global client</p>
+            </div>
+            <div class="single-card box-animation-3 secondary-bg text-white">
+              <span class="ti-cup"></span>
+              <h3>2103</h3>
+              <p>Win award</p>
+            </div>
+            <div class="single-card box-animation-4 primary-bg text-white">
+              <span class="ti-user color-secondary"></span>
+              <h3>2149</h3>
+              <p>Clients satisfaction</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--about us section end-->
+
+  <!--promo section start REDES SOCIALES-->
+  <!-- <section class="promo-section ptb-100">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-lg-4">
+          <div
+            class="single-promo single-promo-hover gray-light-bg h-100 rounded"
+          >
+            <img
+              src="../../../assets/img/service6.jpg"
+              alt="promo image"
+              class="img-fluid img-full-box"
+            />
+            <div class="promo-info">
+              <h5>Redes sociales</h5>
+              <p>
+                Increase sales by showing true dynamics of your website. Build
+                your online store’s trust using Social Proof & Urgency.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-4">
+          <div
+            class="single-promo single-promo-hover gray-light-bg h-100 rounded"
+          >
+            <img
+              src="../../../assets/img/service2.jpg"
+              alt="promo image"
+              class="img-fluid img-full-box"
+            />
+            <div class="promo-info">
+              <h5>Redes sociales</h5>
+              <p>
+                Build your online store’s trust using Social Proof & Urgency.
+                Realize importance of social proof in customer’s.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-4">
+          <div
+            class="single-promo single-promo-hover gray-light-bg h-100 rounded"
+          >
+            <img
+              src="../../../assets/img/service7.jpg"
+              alt="promo image"
+              class="img-fluid img-full-box"
+            />
+            <div class="promo-info">
+              <h5>Redes sociales</h5>
+              <p>
+                Realize importance of social proof in customer’s purchase
+                decision. Increase sales by showing true dynamics website.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+  <!--promo section end-->
+
+  <!--our video promo section start-->
+  <section
+    class="video-promo ptb-100 background-img"
+    style="background: url('http://agencyco.themetags.com/img/video-bg.jpg') no-repeat center center / cover"
+  >
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-9 col-lg-8">
+          <div class="text-center mb-5 text-white">
+            <h2 class="text-white">Conocenos de cerca, mira nuestro video</h2>
+            <!-- <p class="lead">
+              Credibly redefine high-payoff web services after holistic
+              experiences. Dramatically enable go forward cross-platform
+              scenarios vis-a-vis diverse markets.
+            </p> -->
+          </div>
+          <div class="video-promo-content mt-4 text-center">
+            <a
+              href="https://www.youtube.com/watch?v=9No-FiEInLA"
+              class="popup-youtube video-play-icon d-inline-block"
+            >
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--our video promo section end-->
+
+  <!--google map start-->
+  <section class="find-us my-4">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 col-md-9 pt-4">
+          <div class="section-heading text-center mb-5">
+            <h2>Quieres visitarnos?</h2>
+            <p class="lead">
+              Nuestras puertas estan abiertas, peudes encontrarnos en
+              direccion completa del negocio.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="google-map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.83543450937!2d144.953735315922!3d-37.817323442021234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d4c2b349649%3A0xb6899234e561db11!2sEnvato!5e0!3m2!1sen!2sbd!4v1571030260624!5m2!1sen!2sbd"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+      ></iframe>
+    </div>
+  </section>
+  <!--google map end-->
+
+  <!--call to action start-->
+  <section
+    class="call-to-action ptb-100 background-img"
+    style="
+      background: url('http://agencyco.themetags.com/img/hero-bg-2.jpg') no-repeat center center / cover fixed;
+    "
+  >
+    <div class="container">
+      <div class="row align-items-center justify-content-around">
+        <div class="col-md-8 col-lg-8">
+          <div class="call-to-action-content text-white">
+            <h2 class="text-white mb-1">
+              Más rápido y fácil de lo que crees.
+            </h2>
+            <p>
+              Llena nuestro formulario y nosotros hacemos el resto, en pocos minutos te contactaremos
+              para ofrecerte nuestra ayuda.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-4">
+          <div
+            class="call-to-action-btn text-md-right text-lg-right text-sm-left"
+          >
+            <a href="#" (click)="goChat()" class="btn solid-btn">
+              Obtener estimado</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--call to action end-->
+
+  <!--footer section start-->
+  <footer class="footer-section">
+    <!--footer top start-->
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-9">
+            <!-- <div class="row footer-top-wrap">
+              <div class="col-md-3"></div>
+              <div class="col-md-3"></div>
+              <div class="col-md-3 col-sm-6">
+                <div class="footer-nav-wrap">
+                  <h4>QUICK LINKS</h4>
+                  <ul class="nav flex-column">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Make Appointment</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Department Services</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Our Business Growth</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <div class="footer-nav-wrap">
+                  <h4>LEGAL</h4>
+                  <ul class="nav flex-column">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Privacy Policy</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Terms of Service</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div> -->
+          </div>
+          <div class="col-md-3">
+            <div class="row footer-top-wrap">
+              <div class="col-12">
+                <div class="footer-nav-wrap">
+                  <h4>GET IN TOUCH</h4>
+                  <ul class="get-in-touch-list">
+                    <li class="d-flex align-items-center py-2">
+                      <span class="ti-location-pin"></span> 1234 Street Name,
+                      City Name, PR
+                    </li>
+                    <li class="d-flex align-items-center py-2">
+                      <span class="ti-email"></span> you@domain.com
+                    </li>
+                    <li class="d-flex align-items-center py-2">
+                      <span class="ti-mobile"></span> (123) 456-7890 - (123)
+                      456-7890
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--footer top end-->
+
+    <!--footer copyright start-->
+    <div class="footer-bottom gray-light-bg py-2">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md-5 col-lg-5">
+            <p class="copyright-text pb-0 mb-0">
+              Copyrights © 2022. Powered by
+              <a href="https://groobay.com" target="_blank"
+                >Groobay.com</a
+              >
+            </p>
+          </div>
+          <div class="col-md-7 col-lg-6 d-none d-md-block d-lg-block">
+            <div class="social-nav text-right">
+              <ul class="list-unstyled social-list mb-0">
+                <li class="list-inline-item tooltip-hover">
+                  <a href="#" class="rounded"
+                    ><span class="ti-facebook"></span
+                  ></a>
+                  <div class="tooltip-item">Facebook</div>
+                </li>
+                <li class="list-inline-item tooltip-hover">
+                  <a href="#" class="rounded"
+                    ><span class="ti-twitter"></span
+                  ></a>
+                  <div class="tooltip-item">Twitter</div>
+                </li>
+                <li class="list-inline-item tooltip-hover">
+                  <a href="#" class="rounded"
+                    ><span class="ti-linkedin"></span
+                  ></a>
+                  <div class="tooltip-item">Linkedin</div>
+                </li>
+                <li class="list-inline-item tooltip-hover">
+                  <a href="#" class="rounded"
+                    ><span class="ti-dribbble"></span
+                  ></a>
+                  <div class="tooltip-item">Dribbble</div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--footer copyright end-->
+  </footer>
+  <!--footer section end-->
+</div>

@@ -1,0 +1,30 @@
+.pictures-dropzone {
+  width: 100%;
+}
+
+.hero-section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.whatsapp-btn {
+  animation: ripple-white 1s linear infinite;
+  -webkit-transition: .5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-color: #28a745ed;
+  background: #28a745ed;
+}
+
+.whatsapp-btn:hover {
+  background: #fff;
+  border-color: #fff;
+}
+
+.whatsapp-btn-img {
+  /* background: white; */
+  width: 45px;
+  vertical-align: middle;
+}

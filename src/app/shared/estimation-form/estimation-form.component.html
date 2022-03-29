@@ -1,0 +1,110 @@
+<!-- <div class="message-box d-none">
+              <div class="alert alert-danger"></div>
+            </div>
+            <form
+              [formGroup]="estimationForm"
+              (ngSubmit)="requestEstimation()"
+              id="getQuoteFrm"
+              name="getQuoteFrm"
+              class="sign-up-form"
+            >
+              <div class="form-group input-group">
+                <input
+                  type="text"
+                  name="name"
+                  class="form-control"
+                  placeholder="Nombre completo"
+                  required
+                  formControlName="name"
+                />
+              </div>
+              <div class="form-group input-group">
+                <input
+                  type="email"
+                  name="email"
+                  class="form-control"
+                  placeholder="Correo electronico"
+                  required
+                  formControlName="email"
+                />
+              </div>
+              <div class="form-group input-group">
+                <input
+                  type="text"
+                  name="Teléfono"
+                  class="form-control"
+                  placeholder="Numero de telefono"
+                  required
+                  formControlName="phone"
+                />
+              </div>
+
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="form-group">
+                    <select formControlName="make" class="form-control" id="exampleFormControlSelect2">
+                      <option selected value="">Marca</option>
+                      <option value="Ford">Ford</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-md-4 p-0">
+                  <div class="form-group">
+                    <select formControlName="model" class="form-control" id="exampleFormControlSelect2">
+                      <option selected value="">Modelo</option>
+                      <option value="Fiesta Titanium">Fiesta Titanium</option>
+                      <option value="Mustang">Mustang</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="form-group">
+                    <select formControlName="year" class="form-control" id="exampleFormControlSelect2">
+                      <option selected value="">Año</option>
+                      <option value="2014">2014</option>
+                      <option value="2020">2020</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-group input-group">
+
+                <div ngx-dropzone
+                    class="pictures-dropzone"
+                    (change)="onDropzoneChange($event)"
+                    accept="image/jpeg,image/jpg,image/png,image/JPEG,image/JPG,image/PNG"
+                    [multiple]="true">
+                  <ngx-dropzone-label>Fotos del vehiculo</ngx-dropzone-label>
+                    <ngx-dropzone-image-preview ngProjectAs="ngx-dropzone-preview"
+                                            *ngFor="let f of dropzoneFiles"
+                                            [file]="f"
+                                            [removable]="true"
+                                            (removed)="onDropzoneRemove(f)">
+                    <ngx-dropzone-label>{{ f.name }} ({{ f.type }})</ngx-dropzone-label>
+                  </ngx-dropzone-image-preview>
+                </div>
+
+              </div>
+              <div class="form-check d-flex align-items-center text-center">
+                <input
+                  type="checkbox"
+                  class="form-check-input mt-0 mr-3"
+                  id="exampleCheck1"
+                />
+                <label class="form-check-label" for="exampleCheck1"
+                  >Estoy de acuerdo con los <a href="#">terminos y condiciones</a></label
+                >
+              </div>
+              <div class="form-group">
+                <button
+                  type="submit"
+                  name="submit"
+                  id="submit"
+                  class="btn solid-btn btn-block"
+                  [disabled]="estimationForm.invalid"
+                >
+                  Enviar
+                </button>
+              </div>
+            </form> -->
