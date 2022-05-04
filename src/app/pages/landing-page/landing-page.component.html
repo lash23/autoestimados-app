@@ -1,16 +1,16 @@
 <!--header section start-->
 <header class="header">
   <!--start navbar-->
-  <nav class="navbar navbar-expand-lg fixed-top bg-transparent">
-    <div class="container">
-      <a class="navbar-brand" href="index-6.html"
+  <nav class="navbar navbar-expand-lg fixed-top bg-transparent text-center">
+    <div class="container d-block">
+      <a class="navbar-brand m-auto" href="/"
         ><img
           src="../../../assets/img/logos/LOGO-TIPO-2-ACTUALIZACION.png"
           width="140"
           alt="logo"
           class="img-fluid p-3"
       /></a>
-      <button
+      <!-- <button
         class="navbar-toggler"
         type="button"
         data-toggle="collapse"
@@ -20,7 +20,7 @@
         aria-label="Toggle navigation"
       >
         <span class="ti-menu"></span>
-      </button>
+      </button> -->
 
       <div
         class="collapse navbar-collapse main-menu"
@@ -102,7 +102,7 @@
       <div class="row align-items-center justify-content-between">
         <div class="col-md-6">
           <div class="hero-content-left text-white mt-lg-0 mt-md-0 mt-5">
-            <h1 class="text-white">Los Autoestimados más rápidos y confiables</h1>
+            <h1 class="text-white main-title">Los Autoestimados más rápidos y confiables</h1>
             <p class="lead">
               Auto estimados online ofrece el servicio de estimaciones en linea
               más experimentado de puerto rico. Obtén tu estimado con nosotros
@@ -115,9 +115,10 @@
                 <img src="../../../assets/img/pr_flag.svg" style="max-width: 30px;" alt="">
                 Puerto Rico confía en nosotros:
               </h3>
-              <ul class="list-inline">
+              <ul class="list-inline partners-list">
                 <li *ngFor="let logo of logos" class="list-inline-item">
                   <img
+                    [ngStyle]="{'width': logo.width}"
                     [src]="logo.img"
                     width="85"
                     alt="client"
@@ -131,12 +132,12 @@
         </div>
         <div class="col-md-6 col-lg-5">
           <div
-            class="sign-up-form-wrap position-relative rounded p-5 "
+            class="sign-up-form-wrap position-relative rounded"
           >
             <div class="sign-up-form-header text-center mb-4">
               <!-- <h4 class="mb-0">Obten tu estimado en menos de una hora</h4> -->
               <div class="form-group">
-                <a href="https://wa.me/17873784599?text=Hola%20estoy%20interesado%20en%20los%20servicios%20de%20Autoestimados%20online%21%0A" target="_blank" class="whatsapp-btn btn outline-btn btn-block">
+                <a href="https://wa.me/17876075676?text=Hola%20estoy%20interesado%20en%20los%20servicios%20de%20Autoestimados%20online%21%0A" target="_blank" class="whatsapp-btn btn outline-btn btn-block">
                   CONTACTANOS
                   <img class="whatsapp-btn-img ml-3" src="../../../assets/img/whatsapp.svg">
                 </a>
@@ -155,11 +156,9 @@
       <div class="row justify-content-center">
         <div class="col-lg-8 col-md-9">
           <div class="section-heading text-center mb-5">
-            <h2>Texto servicios Autoestimados online</h2>
+            <h2>Contamos con más de 40 ańos de experiencia en la industria. La ponemos a tu disposición para que obtengas el mejor estimado en el menor tiempo posible.</h2>
             <p class="lead">
-              Following reasons show advantages of adding us to your lead
-              pages, demos and checkouts team building e-tailers after timely
-              schemas.
+              Somos una empresa respaldada por Hojalatería del Este, taller 5 estrellas reconocido por todas las aseguradoras de Puerto Rico.
             </p>
           </div>
         </div>
@@ -174,10 +173,10 @@
               class="ti-bar-chart primary-bg text-white icon rounded"
             ></span>
             <div class="feature-content">
-              <h5 class="mb-2">Convert traffic into sales</h5>
+              <h5 class="mb-2">Estimación rápida y precisa</h5>
               <p>
-                where we use search engines to market your product through paid
-                methods pay per click services.
+                Ofrecemos estimados rápidos y precisos para cualquier tipo de vehículo.
+                Lo mejor? no necesitas desplazarte ni dejar el carro con nosotros!
               </p>
             </div>
           </div>
@@ -188,10 +187,10 @@
           >
             <span class="ti-shield primary-bg text-white icon rounded"></span>
             <div class="feature-content">
-              <h5 class="mb-2">Increase store trust</h5>
+              <h5 class="mb-2">Cualquier tipo de incidente</h5>
               <p>
-                While browsing Facebook or Twitter or even Linkedin, you are
-                subjected to advertisements.
+                Necesitas un estimado por un choque, colision o algun otro tipo de daño?
+                nosotros nos encargamos!
               </p>
             </div>
           </div>
@@ -202,10 +201,10 @@
           >
             <span class="ti-cup primary-bg text-white icon rounded"></span>
             <div class="feature-content">
-              <h5 class="mb-2">Growth guaranteed</h5>
+              <h5 class="mb-2">Seguimiento personal</h5>
               <p>
-                Email marketing is one of the most popular strategies offered
-                full-service marketing agencies.
+                Te apoyamos con el Ajustador protegiendo el precio de tu estimado
+                y agregamos cualquier copia que necesites sin ningún costo adicional.
               </p>
             </div>
           </div>
@@ -223,8 +222,8 @@
           <div class="about-content-left">
             <h2>Una empresa familiar con calidad corporativa</h2>
             <p class="lead">
-              Texto de quienes somos, esto es acerca de autoestimados online, la experiencia que tienen
-              el reconocimiento que han ganado en Puerto Rico y la gran calidad de su servicio.
+              Atendemos tu caso y tu vehiculo con cariño y compromiso, nos caracteriza la seriedad con la que atendemos cada caso
+              y el cuidado de cada detalle.
             </p>
           </div>
           <div class="row">
@@ -233,12 +232,12 @@
                 <span
                   class="ti-alarm-clock rounded mr-3 icon primary-bg text-white"
                 ></span>
-                <h5 class="mb-0">Easy to use</h5>
+                <h5 class="mb-0">Autoestimados Online</h5>
               </div>
               <p>
-                Synergistically deliver next-generation relationships whereas
-                bleeding-edge resources. Continually pontificate stand-alone
-                benefits whereas.
+                Realizamos el estimado más preciso posible para tu carro, camioneta o motora,
+                nuestra experiencia te ayuda a proteger el precio de tu estimación y garantizar
+                que recibas el mejor trato posible.
               </p>
             </div>
             <div class="single-feature my-4 col-md-6">
@@ -246,23 +245,22 @@
                 <span
                   class="ti-alarm-clock rounded mr-3 icon primary-bg text-white"
                 ></span>
-                <h5 class="mb-0">Increase conversion</h5>
+                <h5 class="mb-0">Hojalateria del Este</h5>
               </div>
               <p>
-                Phosfluorescently empower compelling intellectual capital and
-                revolutionary web services. Compellingly develop cross-media.
+                Hojalateria del Este es el unico taller 5 estrellas de Puerto Rico que realiza adaptaciones
+                con perlas que le dan una identidad unica a tu vehiculo, nuestro compromiso es que te vehiculo no abandone
+                nuestro taller hasta que estes 100% satisfecho e impresionado.
               </p>
             </div>
             <div class="col-md-6 my-4">
               <div class="form-group">
-                <input
-                  (click)="goChat()"
-                  type="submit"
-                  name="submit"
-                  id="submit"
+                <a
+                target="_blank"
                   class="btn solid-btn btn-block"
-                  value="Obtener estimado"
-                />
+                  href="https://wa.me/17876075676?text=Hola%20estoy%20interesado%20en%20los%20servicios%20de%20Autoestimados%20online%20y%20Hojalateria%20del%20Este%21%0A">
+                  Obtener más información
+                </a>
               </div>
             </div>
           </div>
@@ -271,23 +269,23 @@
           <div class="counter">
             <div class="single-card box-animation-1 primary-bg text-white">
               <span class="ti-medall-alt"></span>
-              <h3>1565</h3>
-              <p>Active users</p>
+              <h3>3000</h3>
+              <p>+3000 vehiculos atendidos</p>
             </div>
             <div class="single-card box-animation-2 secondary-bg text-white">
               <span class="ti-headphone-alt"></span>
-              <h3>2452</h3>
-              <p>Global client</p>
+              <h3>1</h3>
+              <p>Atendems en 1 hora o menos</p>
             </div>
             <div class="single-card box-animation-3 secondary-bg text-white">
               <span class="ti-cup"></span>
-              <h3>2103</h3>
-              <p>Win award</p>
+              <h3>40</h3>
+              <p>Más de 40 años de experiencia</p>
             </div>
             <div class="single-card box-animation-4 primary-bg text-white">
               <span class="ti-user color-secondary"></span>
-              <h3>2149</h3>
-              <p>Clients satisfaction</p>
+              <h3>100</h3>
+              <p>100% de clientes satisfechos</p>
             </div>
           </div>
         </div>
@@ -396,8 +394,8 @@
           <div class="section-heading text-center mb-5">
             <h2>Quieres visitarnos?</h2>
             <p class="lead">
-              Nuestras puertas estan abiertas, peudes encontrarnos en
-              direccion completa del negocio.
+              Atendemos a todo Puerto Rico, puedes visitarnos nuestras puertas estan abiertas
+              desde el taller de Hojalatería del Este.
             </p>
           </div>
         </div>
@@ -405,7 +403,7 @@
     </div>
     <div class="google-map">
       <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.83543450937!2d144.953735315922!3d-37.817323442021234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d4c2b349649%3A0xb6899234e561db11!2sEnvato!5e0!3m2!1sen!2sbd!4v1571030260624!5m2!1sen!2sbd"
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15170.350512667364!2d-65.8474107!3d18.0906352!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe25ee7dd553e2d0d!2sHojalateria%20del%20Este!5e0!3m2!1ses!2sve!4v1651676280523!5m2!1ses!2sve"
         height="450"
         style="border: 0"
         allowfullscreen=""
@@ -429,8 +427,7 @@
               Más rápido y fácil de lo que crees.
             </h2>
             <p>
-              Llena nuestro formulario y nosotros hacemos el resto, en pocos minutos te contactaremos
-              para ofrecerte nuestra ayuda.
+              Estas a un click de distancia, haz click en el boton de contacto y en breves minutos estaremos ofreciendote nuestra ayuda.
             </p>
           </div>
         </div>
@@ -496,15 +493,15 @@
                   <h4>GET IN TOUCH</h4>
                   <ul class="get-in-touch-list">
                     <li class="d-flex align-items-center py-2">
-                      <span class="ti-location-pin"></span> 1234 Street Name,
-                      City Name, PR
+                      <span class="ti-location-pin"></span> Carretera 3 KM 90.6 Barrio Aguacate,
+                      Yabucoa, PR 00767.
                     </li>
                     <li class="d-flex align-items-center py-2">
-                      <span class="ti-email"></span> you@domain.com
+                      <span class="ti-email"></span> autoestimadosonline@gmail.com
                     </li>
                     <li class="d-flex align-items-center py-2">
-                      <span class="ti-mobile"></span> (123) 456-7890 - (123)
-                      456-7890
+                      <span class="ti-mobile"></span> (787) 6075676 - (787)
+                      378-4599
                     </li>
                   </ul>
                 </div>
@@ -532,12 +529,12 @@
             <div class="social-nav text-right">
               <ul class="list-unstyled social-list mb-0">
                 <li class="list-inline-item tooltip-hover">
-                  <a href="#" class="rounded"
+                  <a href="https://www.facebook.com/autoestimadosonlinepr/" target="_blank" class="rounded"
                     ><span class="ti-facebook"></span
                   ></a>
                   <div class="tooltip-item">Facebook</div>
                 </li>
-                <li class="list-inline-item tooltip-hover">
+                <!-- <li class="list-inline-item tooltip-hover">
                   <a href="#" class="rounded"
                     ><span class="ti-twitter"></span
                   ></a>
@@ -554,7 +551,7 @@
                     ><span class="ti-dribbble"></span
                   ></a>
                   <div class="tooltip-item">Dribbble</div>
-                </li>
+                </li> -->
               </ul>
             </div>
           </div>

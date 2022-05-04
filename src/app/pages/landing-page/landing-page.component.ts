@@ -15,16 +15,12 @@ export class LandingPageComponent implements OnInit {
   estimationForm: FormGroup;
   logos = [
     {
-      img: "http://agencyco.themetags.com/img/client-1-gray.png",
+      img: "../../../assets/img/partners/hojalateria del este.png",
+      width: "170px"
     },
     {
-      img: "http://agencyco.themetags.com/img/client-2-gray.png",
-    },
-    {
-      img: "http://agencyco.themetags.com/img/client-3-gray.png",
-    },
-    {
-      img: "http://agencyco.themetags.com/img/client-4-gray.png",
+      img: "../../../assets/img/partners/groobay-white.png",
+      width: "140px"
     }
   ]
   constructor(
